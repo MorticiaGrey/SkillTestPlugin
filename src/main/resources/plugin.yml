@@ -1,0 +1,16 @@
+name: Morticia.SkillTestPlugin
+version: ${project.version}
+main: morticia.skilltestplugin.Morticia.skillTestPlugin
+api-version: 1.16
+authors: [ Morticia ]
+description: A plugin to test my level of experience
+commands:
+  get_d_jump_boots:
+    description: Gives double jump boots
+    usage: /<command>
+  get_speed_boots:
+    description: Gives speed boots
+    usage: /<command>
+  level:
+    description: Shows gui displaying mining level
+    usage: /<command>
